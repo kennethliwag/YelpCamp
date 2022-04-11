@@ -1,0 +1,48 @@
+/* MAP STYLE*/
+.cluster-map {
+  width: 100%;
+  height: 500px;
+}
+
+.show-page-map {
+  width: 100%;
+  height: 300px;
+}
+
+/* Images Size */
+.show-image {
+  width: 100%;
+  height: 55vh;
+}
+
+/* Cards Login and Register Design */
+.card-design {
+  width: 30%;
+  margin-bottom: 2em;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.527);
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+  .card-design {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card-design {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .card-design {
+    width: 90%;
+  }
+}
